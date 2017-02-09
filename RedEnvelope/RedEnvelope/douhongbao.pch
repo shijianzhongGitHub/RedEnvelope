@@ -1,0 +1,24 @@
+//
+//  douhongbao.pch
+//  RedEnvelope
+//
+//  Created by 史建忠 on 16/9/8.
+//  Copyright © 2016年 史建忠. All rights reserved.
+//
+
+#ifndef douhongbao_pch
+#define douhongbao_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "MyNavigationView.h"
+
+
+//获得RGB颜色
+#define JZColorA(r,g,b,a)   [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+#define DHBColor(r,g,b,a)   [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+#define ScreenWidth         [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight        [UIScreen mainScreen].bounds.size.height
+
+#endif /* douhongbao_pch */
